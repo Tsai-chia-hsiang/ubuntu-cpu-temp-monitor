@@ -6,8 +6,8 @@ Inspired by the Linux `sensors` utility, this is a lightweight desktop applicati
 - Real-time CPU temperature monitoring
 - Simple Qt-based UI
 - Reads system temperature from `/sys/class/hwmon/`
-- <video src="pics/app.webm" autoplay loop muted playsinline width="400"></video>
 
+- <img src="pics/app.gif" width=30%>
 
 
 
