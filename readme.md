@@ -1,16 +1,24 @@
 # Qt CPU Temperature Monitor
 
-A lightweight desktop application to monitor CPU temperature, built with **C++** and **Qt** on KUbuntu.
+Inspired by the Linux `sensors` utility, this is a lightweight desktop application to monitor CPU temperature, built with **C++** and **Qt**, tested on **KUbuntu**.
 
 ## Features
 - Real-time CPU temperature monitoring
 - Simple Qt-based UI
 - Reads system temperature from `/sys/class/hwmon/`
+- <video src="pics/app.webm" autoplay loop muted playsinline width="400"></video>
+
+
 
 
 ## Build
-Using **CMake**
+### Requirements
+- g++ (C++23 or later)
+- Linux system with /sys/class/hwmon/ available
+- CMake
+- QT6
 
+### Building Command
 - Executable GUI program  
     - Build:
         - ```
